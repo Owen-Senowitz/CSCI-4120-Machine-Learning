@@ -2,6 +2,7 @@ import pandas as pd
 import random
 import math
 import operator
+import matplotlib.pyplot as plt
 
 def loadDataset(url, split):
 	trainingSet=[]
@@ -53,28 +54,39 @@ def getAccuracy(testSet, predictions):
 	
 def main():
 	# prepare data
+	ypoints=[]
+	xpoints=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 	trainingSet=[]
 	testSet=[]
 	split = 0.67
-	url = 'https://raw.githubusercontent.com/ruiwu1990/CSCI_4120/master/KNN/iris.data'
-	trainingSet, testSet = loadDataset(url, 0.66)
+	fileName = 'homework 1/iris.data'
 	print('Train set: ' + repr(len(trainingSet)))
 	print('Test set: ' + repr(len(testSet)))
 	# generate predictions
 	predictions=[]
-	k = 3
-	# loop through testSet
-	for x in range(len(testSet)):
-		# TODO starts here
-		# get neighor between current test record and all training datasets
-		neighbors = getNeighbors(trainingSet, testSet[x], k)
-		# get response
-		result = getResponse(neighbors)
-		# append current prediction result to predictions list
-		predictions.append(result)
-		print('> predicted=' + repr(result) + ', actual=' + repr(testSet[x][-1]))
-		# TODO ends here
-	accuracy = getAccuracy(testSet, predictions)
-	print('Accuracy: ' + repr(accuracy) + '%')
-	
+	k = 1
+	while (k <= 20):
+		print('K: ' + str(k))
+		k = k + 1
+		trainingSet, testSet = loadDataset(fileName, split)
+
+		# loop through testSet
+		for x in range(len(testSet)):
+			# TODO starts here
+			# get neighor between current test record and all training datasets
+			neighbors = getNeighbors(trainingSet, testSet[x], k)
+			# get response
+			result = getResponse(neighbors)
+			# append current prediction result to predictions list
+			predictions.append(result)
+			#print('> predicted=' + repr(result) + ', actual=' + repr(testSet[x][-1]))
+			# TODO ends here
+		accuracy = getAccuracy(testSet, predictions)
+		print('Accuracy: ' + repr(accuracy) + '%')
+		ypoints.append(repr(accuracy))
+	plt.title("Iris Flower KNN")
+	plt.xlabel("K Value")
+	plt.ylabel("Precent Accuracy")
+	plt.plot(xpoints, ypoints)
+	plt.show()
 main()
