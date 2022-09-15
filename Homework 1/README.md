@@ -35,4 +35,6 @@ Jupyter Notebook
 
 **Model accuracy:**
 94%
+
+K=1 is the optimal number of nearest neighbors with an accuracy of 94%
 ![](linechart.png)
