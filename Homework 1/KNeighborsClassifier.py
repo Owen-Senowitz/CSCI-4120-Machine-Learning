@@ -59,7 +59,7 @@ def main():
 	trainingSet=[]
 	testSet=[]
 	split = 0.67
-	fileName = 'homework 1/iris.data'
+	fileName = "homework 1/iris.data"
 	print('Train set: ' + repr(len(trainingSet)))
 	print('Test set: ' + repr(len(testSet)))
 	# generate predictions

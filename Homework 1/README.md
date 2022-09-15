@@ -1,16 +1,15 @@
 # Homework 1
 
-Homework 1
 
 #### **Team member names:**
 
-Owen Senowitz
+**_Owen Senowitz_**----
 senowitzo19@students.ecu.edu
 
-James Kinlaw
+**_James Kinlaw_**------
 kinlawj19@students.ecu.edu
 
-Tyler Blue
+**_Tyler Blue_**------------
 bluet19@students.ecu.edu
 
 The iris data set that contains 150 records of three species of Iris flowers, Iris Setosa , Iris Virginica and Iris Versicolor is being used in this algorithm.
@@ -28,7 +27,12 @@ Jupyter Notebook
 
 #### **Important Libraries:**
 
-pandas
-random
-math
-matplotlib
+1. pandas
+2. random
+3. math
+4. matplotlib
+
+
+**Model accuracy:**
+94%
+![](linechart.png)
