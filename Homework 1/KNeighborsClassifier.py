@@ -73,7 +73,7 @@ def main():
 		# loop through testSet
 		for x in range(len(testSet)):
 			# TODO starts here
-			# get neighor between current test record and all training datasets
+			# get neighbor between current test record and all training datasets
 			neighbors = getNeighbors(trainingSet, testSet[x], k)
 			# get response
 			result = getResponse(neighbors)
@@ -86,7 +86,7 @@ def main():
 		ypoints.append(repr(accuracy))
 	plt.title("Iris Flower KNN")
 	plt.xlabel("K Value")
-	plt.ylabel("Precent Accuracy")
+	plt.ylabel("Percent Accuracy")
 	plt.plot(xpoints, ypoints)
 	plt.show()
 main()
