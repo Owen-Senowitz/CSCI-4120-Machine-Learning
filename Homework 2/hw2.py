@@ -15,8 +15,7 @@ plt.ylabel('Y')
 #plt.show()
 plt.clf()
 
-model = KMeans()
-visualizer = KElbowVisualizer(model, k=(1,10))
+visualizer = KElbowVisualizer(KMeans(), k=(1,10))
 visualizer.fit(X)
 visualizer.show()
 
