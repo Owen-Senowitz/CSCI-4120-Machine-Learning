@@ -13,11 +13,9 @@ bluet19@students.ecu.edu
 
 #### **Important Libraries:**
 
-1. seaborn
-2. sklearn
-3. yellowbrick
-4. matplotlib
-5. pillow
+1. sklearn
+2. yellowbrick
+3. matplotlib
 
 ![](confusionMatrix.png)
 ![](elbow.png)
