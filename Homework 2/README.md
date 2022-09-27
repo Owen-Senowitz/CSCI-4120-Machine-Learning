@@ -1,6 +1,5 @@
 # Homework 2
 
-
 #### **Team member names:**
 
 **_Owen Senowitz_**----
@@ -12,8 +11,6 @@ kinlawj19@students.ecu.edu
 **_Tyler Blue_**------------
 bluet19@students.ecu.edu
 
-
-
 #### **Important Libraries:**
 
 1. seaborn
@@ -23,3 +20,5 @@ bluet19@students.ecu.edu
 5. pillow
 
 ![](confusionMatrix.png)
+![](elbow.png)
+![](scatterPlot.png)
