@@ -1,5 +1,4 @@
 # Homework 2
-Quickstart:
 
 #### **Team member names:**
 
