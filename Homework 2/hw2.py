@@ -17,7 +17,7 @@ def scatterPlot():
     plt.clf()
 
 def elbow():
-    visualizer = KElbowVisualizer(KMeans(), k=(1,10))
+    visualizer = KElbowVisualizer(KMeans(), k=(1,12))
     visualizer.fit(X)
     visualizer.show()
 
