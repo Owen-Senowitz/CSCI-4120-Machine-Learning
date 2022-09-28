@@ -28,4 +28,4 @@ This program uitizes KElbowVisualizer to implement the "elbow" method in order t
 
 ![](confusionMatrix.png)
 ![](elbow.png)
-![](scatterPlot.png)
+![](ScatterPlot.png)
