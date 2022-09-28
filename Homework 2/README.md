@@ -26,6 +26,17 @@ This program uitizes KElbowVisualizer to implement the "elbow" method in order t
 2. yellowbrick
 3. matplotlib
 
+### **What The K:**
+
+The best K-value that we got was K=3.
+
+The accuracy score for the k-means cluster algorithm when using K=3 was 546.891 as denoted by our Elbow for KMeans Clustering picture.
+
+### **Confusion Matrix**
+
 ![](confusionMatrix.png)
+
+## **More Pictures**
+
 ![](elbow.png)
 ![](ScatterPlot.png)
