@@ -1,4 +1,9 @@
 # Homework 4
+
+This project is an example of Ridge and Lasso regression using a bridge traffic dataset. The alpha values were optimized using sklearn.
+
+
+
 ### Best Regression Model/Method per 10-fold Cross Validation Score
 
 **Ridge**: 0.7711
@@ -29,7 +34,7 @@ seaborn
 numpy 
 sklearn 
 pandas 
-scipy
+
 
 #### **Team member names:**
 
