@@ -1,26 +1,28 @@
 # Homework 4
-Best Regression Model/Method per 10-fold Cross Validation Score
+### Best Regression Model/Method per 10-fold Cross Validation Score
 
-Ridge: 0.7711
+**Ridge**: 0.7711
 
-Lasso: 0.7709
+**Lasso**: 0.7709
 
-Ridge Regression with an alpha value of 4.63 performs the best
-
-
-
-Best Alpha values for both Ridge and Lasso
-
-Ridge Alpha: 4.63
-
-Lasso Alpha: 3.79
+_Cross Validation Score for Lasso Regression is 0.7709
+Cross Validation Score for Ridge Regression is 0.7711_
 
 
 
-Cross Validation Score for Lasso Regression is 0.7709
-Cross Validation Score for Ridge Regression is 0.7711
 
-Dependencies:
+
+### Best Alpha values for both Ridge and Lasso
+
+**Ridge Alpha:** 4.63
+
+**Lasso Alpha:** 3.79
+
+#### Ridge Regression with an alpha value of 4.63 performs the best
+
+
+### Dependencies:
+
 matplotlib 
 seaborn 
 numpy 
