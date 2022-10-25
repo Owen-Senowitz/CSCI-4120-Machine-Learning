@@ -5,8 +5,9 @@
 
 **Lasso**: 0.7709
 
-_Cross Validation Score for Lasso Regression is 0.7709
-Cross Validation Score for Ridge Regression is 0.7711_
+Cross Validation Score for Lasso Regression is 0.7709
+
+Cross Validation Score for Ridge Regression is 0.7711
 
 
 
