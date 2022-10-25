@@ -29,11 +29,11 @@ _Cross Validation Score for Ridge Regression is 0.7711_
 
 ### Dependencies:
 
-matplotlib 
-seaborn 
-numpy 
-sklearn 
-pandas 
+1. matplotlib
+2. seaborn
+3. numpy
+4. sklearn
+5. pandas
 
 
 #### **Team member names:**
