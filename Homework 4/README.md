@@ -1,10 +1,24 @@
 # Homework 4
+Best Regression Model/Method per 10-fold Cross Validation Score
 
-Best Alpha Hyperparameter Values for Ridge and Lasso
+Ridge: 0.7711
+
+Lasso: 0.7709
+
+Ridge Regression with an alpha value of 4.63 performs the best
+
+
+
+Best Alpha values for both Ridge and Lasso
 
 Ridge Alpha: 4.63
 
 Lasso Alpha: 3.79
+
+
+
+Cross Validation Score for Lasso Regression is 0.7709
+Cross Validation Score for Ridge Regression is 0.7711
 
 Dependencies:
 matplotlib 
